@@ -10,7 +10,10 @@ import sqlLogo from "../assets/sql.jpg";
 
 const Skills = () => {
   return (
-    <div name="skills" className="w-full h-screen bg-[#0a192f] text-gray-300">
+    <div
+      name="skills"
+      className="w-full bg-[#0a192f] text-gray-300 min-h-screen flex items-center py-5"
+    >
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div>

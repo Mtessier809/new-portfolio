@@ -9,8 +9,23 @@ const Navbar = () => {
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
-      <div></div>
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 text-gray-300">
+      <div>
+        <ul className="lg:hidden flex items-center">
+          <li>
+            <FaLinkedin size={25} />
+          </li>
+          <li>
+            <FaGithub size={25} />
+          </li>
+          <li>
+            <HiOutlineMail size={25} />
+          </li>
+          <li>
+            <BsFillPersonLinesFill size={25} />
+          </li>
+        </ul>
+      </div>
       {/* Menu */}
       <ul className="hidden md:flex">
         <li>
@@ -24,7 +39,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="skills" smooth={true} duration={500}>
+          <Link to="skills" smooth={true} duration={500} offset={100}>
             Skills
           </Link>
         </li>

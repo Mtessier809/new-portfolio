@@ -4,7 +4,10 @@ import VolunteerOne2 from "../assets/VolunteerOne2.png";
 
 const Work = () => {
   return (
-    <div className="bg-[#0a192f] w-full md:h-screen text-gray-300" name="work">
+    <div
+      className="bg-[#0a192f] w-full text-gray-300 min-h-screen flex items-center py-5"
+      name="work"
+    >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-pink-600">
