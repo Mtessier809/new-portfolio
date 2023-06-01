@@ -11,18 +11,26 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 text-gray-300">
       <div>
-        <ul className="lg:hidden flex items-center">
+        <ul className="lg:hidden flex items-center justify-start">
           <li>
-            <FaLinkedin size={25} />
+            <a href="https://www.linkedin.com/in/mathis-tessier/">
+              <FaLinkedin size={25} />
+            </a>
           </li>
           <li>
-            <FaGithub size={25} />
+            <a href="https://github.com/Mtessier809">
+              <FaGithub size={25} />
+            </a>
           </li>
           <li>
-            <HiOutlineMail size={25} />
+            <a href="mailto:mathistessier22@gmail.com">
+              <HiOutlineMail size={25} />
+            </a>
           </li>
           <li>
-            <BsFillPersonLinesFill size={25} />
+            <a href="https://docs.google.com/document/d/1A7NlxY6I570DZjO37sLbe6sGfc5U3y9q/edit?usp=sharing&ouid=105233324439623392426&rtpof=true&sd=true">
+              <BsFillPersonLinesFill size={25} />
+            </a>
           </li>
         </ul>
       </div>
