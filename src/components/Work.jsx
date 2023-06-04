@@ -23,18 +23,22 @@ const Work = () => {
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
+            <div className="opacity-0 group-hover:opacity-100 flex flex-col justify-start h-full w-full overflow-hidden">
+              <span className="text-2xl font-bold text-white text-center tracking-wider h-1/4 px-2 pt-3">
                 React Native App
               </span>
-              <div className="pt-8 text-center">
+              <p className=" h-1/2 p-2">
+                Social-media-based Volunteering app that connects volunteers and
+                organizations together. Built in React Native and Go.
+              </p>
+              <div className="text-center h-1/4">
                 <a href="https://www.youtube.com/watch?v=3n5qWAzflfk&t=8s&ab_channel=CeraSamson">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
                 <a href="https://github.com/VolunteerOne/volunteer-one-app">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text text-gray-700 font-bold text-lg">
+                  <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text text-gray-700 font-bold text-lg">
                     Code
                   </button>
                 </a>

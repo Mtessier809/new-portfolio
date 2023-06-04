@@ -8,15 +8,13 @@ import Certifications from "./components/Certifications";
 function App() {
   return (
     <div className="bg-[#0a192f]">
-      <div>
-        <Navbar />
-        <Home />
-        <About />
-        <Skills />
-        <Certifications />
-        <Work />
-        <Contact />
-      </div>
+      <Navbar />
+      <Home />
+      <About />
+      <Skills />
+      <Certifications />
+      <Work />
+      <Contact />
     </div>
   );
 }
