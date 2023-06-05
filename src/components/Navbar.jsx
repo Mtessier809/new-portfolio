@@ -28,7 +28,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="https://docs.google.com/document/d/1A7NlxY6I570DZjO37sLbe6sGfc5U3y9q/edit?usp=sharing&ouid=105233324439623392426&rtpof=true&sd=true">
+            <a href="https://drive.google.com/file/d/1Cdf2IqnqIJ_JzmAf8XNy_UPzRf7LErQf/view?usp=sharing">
               <BsFillPersonLinesFill size={25} />
             </a>
           </li>
@@ -146,7 +146,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
-              href="https://docs.google.com/document/d/1A7NlxY6I570DZjO37sLbe6sGfc5U3y9q/edit?usp=sharing&ouid=105233324439623392426&rtpof=true&sd=true"
+              href="https://drive.google.com/file/d/1Cdf2IqnqIJ_JzmAf8XNy_UPzRf7LErQf/view?usp=sharing"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
