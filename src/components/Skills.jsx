@@ -5,8 +5,10 @@ import javascriptLogo from "../assets/javascript.png";
 import reactLogo from "../assets/react.png";
 import awsLogo from "../assets/aws.png";
 import pythonLogo from "../assets/pythonLogo.png";
-import gitLogo from "../assets/git.png";
 import sqlLogo from "../assets/sql.jpg";
+import typescriptLogo from "../assets/typescript.png";
+import netLogo from "../assets/net.png";
+import csLogo from "../assets/cs.png";
 
 const Skills = () => {
   return (
@@ -22,7 +24,7 @@ const Skills = () => {
           </p>
           <p className="py-4">// These are the technologies I've worked with</p>
         </div>
-        <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-5 gap-4 text-center py-8">
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={htmlLogo} alt="HTML logo" />
             <p className="my-4">HTML</p>
@@ -38,6 +40,14 @@ const Skills = () => {
               alt="JavaScript logo"
             />
             <p className="my-4">JavaScript</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img
+              className="w-20 mx-auto"
+              src={typescriptLogo}
+              alt="TypeScript logo"
+            />
+            <p className="my-4">TypeScript</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={reactLogo} alt="React logo" />
@@ -56,8 +66,12 @@ const Skills = () => {
             <p className="my-4">SQL</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
-            <img className="w-20 mx-auto" src={gitLogo} alt="Git logo" />
-            <p className="my-4">Git</p>
+            <img className="w-20 mx-auto" src={netLogo} alt="Git logo" />
+            <p className="my-4">.Net Framework</p>
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-20 mx-auto" src={csLogo} alt="Git logo" />
+            <p className="my-4">C#</p>
           </div>
         </div>
       </div>

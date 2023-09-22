@@ -21,16 +21,16 @@ const About = () => {
           </div>
           <p>
             I currently work at a fintech startup called Intellimind as a Junior
-            Software Engineer. I learned how to build web apps in React.js,
-            develop and provison resources in the AWS cloud, and work with a
-            team. In the cloud, I have worked with services such as Lambda, RDS,
-            API Gateway, and many more. I have also obtained the AWS Cloud
-            Practitioner certification, and I am currently studying for the
-            Associate Developer Exam. My goals are to continue learning more
-            about full-stack development and cloud computing, so I can build my
-            own applications from scratch. To further improve my development
-            skills I have also worked on side projects, which you can check out
-            below.
+            Software Engineer. For the last year, I have worked on building a
+            high-performance, scalable, cross-platform responsive web app with
+            React.js, TypeScript, Material-UI, and other technologies integrated
+            with AWS services such as Amplify, Lambda , and S3. I have also
+            obtained the AWS Cloud Practitioner certification, and I am
+            currently studying for the Associate Developer Exam. My goals are to
+            continue learning more about full-stack development and cloud
+            computing, so I can build entire applications end-to-end from
+            scratch. To further improve my development skills, I have also
+            worked on side projects that you can check out below.
           </p>
         </div>
       </div>
