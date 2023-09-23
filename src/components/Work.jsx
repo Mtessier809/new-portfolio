@@ -61,11 +61,8 @@ const Work = () => {
                 filtering, and sorting.
               </p>
               <div className="text-center h-1/4">
-                <a href="">
-                  <button
-                    className="text-center rounded-lg px-3 py-2 m-2 bg-white text text-gray-700 font-bold text-lg disabled:opacity-70"
-                    disabled
-                  >
+                <a href="https://drive.google.com/file/d/1C-JSQSgfYDUnhQibFjELOrTrkG_t5JB5/view?usp=sharing">
+                  <button className="text-center rounded-lg px-3 py-2 m-2 bg-white text text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
