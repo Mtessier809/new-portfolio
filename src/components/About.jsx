@@ -20,17 +20,17 @@ const About = () => {
             <p>Welcome to my portfolio. Please take a look around.</p>
           </div>
           <p>
-            I currently work at a fintech startup called Intellimind as a Junior
-            Software Engineer. For the last year, I have worked on building a
-            high-performance, scalable, cross-platform responsive web app with
-            React.js, TypeScript, Material-UI, and other technologies integrated
-            with AWS services such as Amplify, Lambda , and S3. I have also
-            obtained the AWS Cloud Practitioner certification, and I am
-            currently studying for the Associate Developer Exam. My goals are to
-            continue learning more about full-stack development and cloud
-            computing, so I can build entire applications end-to-end from
-            scratch. To further improve my development skills, I have also
-            worked on side projects that you can check out below.
+            At my latest role I interned for a fintech startup called
+            Intellimind as a Junior Software Engineer. For the last year, I
+            built a high-performance, scalable, cross-platform responsive web
+            application with React.js, TypeScript, Material-UI, and other
+            technologies integrated with AWS services such as Amplify, Lambda ,
+            DynamoDB, and S3. I have also obtained the AWS Cloud Practitioner
+            Certification and the AWS Developer Associate Certification. My
+            goals are to continue learning more about full-stack development and
+            cloud computing, so I can eventually build entire applications
+            end-to-end from scratch. To further improve my development skills, I
+            have also worked on side projects that you can check out below.
           </p>
         </div>
       </div>

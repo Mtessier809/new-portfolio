@@ -1,5 +1,6 @@
 import React from "react";
 import cloudPractioner from "../assets/cloudPractioner.png";
+import dva from "../assets/dva.png";
 
 const Certifications = () => {
   return (
@@ -21,6 +22,9 @@ const Certifications = () => {
               src={cloudPractioner}
               alt="HTML logo"
             />
+          </div>
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
+            <img className="w-25 mx-auto" src={dva} alt="HTML logo" />
           </div>
         </div>
       </div>
